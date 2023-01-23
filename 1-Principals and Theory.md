@@ -10,16 +10,13 @@
     * [The key goals of Human Computer Interactions](#the-key-goals-of-human-computer-interactions)
     * [User-Centered Design Process](#user-centered-design-process)
     * [User Experience Requirements](#user-experience-requirements)
-    * [Affordances](#affordances)
-- [Principals and Theory](#principals-and-theory)
-  - [Week 1](#week-1)
-    - [Why is software hard to design?](#why-is-software-hard-to-design)
-    - [Why is this bad?](#why-is-this-bad)
-    - [How can we create better designed products](#how-can-we-create-better-designed-products)
-    - [The key goals of Human Computer Interactions](#the-key-goals-of-human-computer-interactions)
-    - [User-Centered Design Process](#user-centered-design-process)
-    - [User Experience Requirements](#user-experience-requirements)
-    - [Affordances](#affordances)
+  * [Lecture #02](#lecture-02)
+    * [Affordance](#affordance)
+    * [Signifier](#signifier)
+    * [Mapping](#mapping)
+    * [Examples of previous three](#examples-of-previous-three)
+    * [Feedback](#feedback)
+    * [Conceptual Model](#conceptual-model)
 
 ## Lecture #01
 
@@ -63,6 +60,48 @@
 
 * Establish human subjective experience goals in **observable, measurable terms**
 
-### Affordances
+## Lecture #02
 
-- Affordances are NOT objects
+### Affordance
+
+* Relationship between a person and an object that suggests what can be done with object
+* Relationship between interacting agent (usually a person) and an object
+* Affordances are NOT a property
+* Must be perceivable
+  * (SIGNIFIER) placing dots of super clean glass, making it less likely to be perceived as something to be passed through!
+
+### Signifier
+
+* A marking, label, or other indication that describes where the action should take place (labels, markers, sounds, etc)
+* Accidental Signifiers
+  * a bookmark intended for saving a spot in a book can also be used to gauge how much of the book is left
+
+### Mapping
+
+* It is the relationship between a set of controls and the items they control
+* the relationship between a control and the action it produces
+* Think of "Key Mapping"
+  * you map the key (control) of an action (in-game action)
+* Can also be physical, think of "thumbs up"
+
+### Examples of previous three
+
+* A stove with knobs:
+  * The burners can be turned on (Affordance).
+  * You know what knob to use because the diagram (Signifiers).
+  * The knobs turn on the burners (map).
+
+### Feedback
+
+* Sending information back to the user about what has been done
+* Includes sound, tactile, and visual feedback
+* Feedback should
+  * be immediate (people get frustrated quickly)
+  * be prioritized (a cacophony doesn't help)
+  * not be too little or too much
+  * help the user know whether progress toward goal has been made
+  * be relevant
+
+### Conceptual Model
+
+* A description, usually simplified, of how a device works
