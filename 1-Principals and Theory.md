@@ -16,7 +16,9 @@
     * [Mapping](#mapping)
     * [Examples of previous three](#examples-of-previous-three)
     * [Feedback](#feedback)
+  * [Lecture #03](#lecture-03)
     * [Conceptual Model](#conceptual-model)
+    * [Constraints](#constraints)
 
 ## Lecture #01
 
@@ -49,8 +51,8 @@
 
 ### The key goals of Human Computer Interactions
 
-* To develop and refine theories and principles of human computer use and human-computer communication
-* to develop techniques and practices for designing and developing human usable software
+1. To develop and refine theories and principles of human computer use and human-computer communication
+1. to develop techniques and practices for designing and developing human usable software
 
 ### User-Centered Design Process
 
@@ -58,13 +60,14 @@
 
 ### User Experience Requirements
 
-* Establish human subjective experience goals in **observable, measurable terms**
+Establish human subjective experience goals in **observable, measurable terms**
 
 ## Lecture #02
 
 ### Affordance
 
-* Relationship between a person and an object that suggests what can be done with object
+Relationship between a person and an object that suggests what can be done with object
+
 * Relationship between interacting agent (usually a person) and an object
 * Affordances are NOT a property
 * Must be perceivable
@@ -72,13 +75,15 @@
 
 ### Signifier
 
-* A marking, label, or other indication that describes where the action should take place (labels, markers, sounds, etc)
+A marking, label, or other indication that describes where the action should take place (labels, markers, sounds, etc)
+
 * Accidental Signifiers
   * a bookmark intended for saving a spot in a book can also be used to gauge how much of the book is left
 
 ### Mapping
 
-* It is the relationship between a set of controls and the items they control
+It is the relationship between a set of controls and the items they control
+
 * the relationship between a control and the action it produces
 * Think of "Key Mapping"
   * you map the key (control) of an action (in-game action)
@@ -93,7 +98,8 @@
 
 ### Feedback
 
-* Sending information back to the user about what has been done
+Sending information back to the user about what has been done
+
 * Includes sound, tactile, and visual feedback
 * Feedback should
   * be immediate (people get frustrated quickly)
@@ -102,6 +108,48 @@
   * help the user know whether progress toward goal has been made
   * be relevant
 
+## Lecture #03
+
 ### Conceptual Model
 
-* A description, usually simplified, of how a device works
+![Conceptual Model](Images/Conceptual%20Model.png)
+
+A description, usually simplified, of how a device works
+
+* How do you view the interaction of an interface
+  * the conceptual model of the thermostate
+* Has three parts:
+  1. Designer's Model
+     * Designer Implements design model in system image
+  2. User's Model
+     * User Model determines what's understood
+  3. System
+  * System Image conveys design model to user
+* This can cause some issues if the user does not have the same conceptual model as the designers
+
+### Constraints
+
+Perceived limitations of the actions that are possible with an object base don object's appearance
+
+* A constrant is a limitation of usage
+* Toggle switches are constrained to be on or off
+* It's purpose is to limit the amount of incorrect options they can do
+
+Types of Constraints:
+
+1. Physical - A physical limitation (USB type)
+2. Cultural - Allowable actions in social situations
+   * Can be universal or culturally specific
+   * can change over time
+     * Face forward in elevator
+3. Semantic - A limitation based on the interpretation or meaning (icons/symbols)
+4. Logical - What is left over when all other actions are exhausted
+
+Others:
+
+* Cultural Norms, Conventions, Standards
+  * Greetings, Flashing headlights, etc.
+* Transfer Effects
+  * MS Word Ribbons when converting to a new system
+* Visibility
+  * Elevator only showing possible actions
