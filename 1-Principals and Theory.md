@@ -129,7 +129,7 @@ A description, usually simplified, of how a device works
 
 ### Constraints
 
-Perceived limitations of the actions that are possible with an object base don object's appearance
+Perceived limitations of the actions that are possible with an object based on object's appearance
 
 * A constrant is a limitation of usage
 * Toggle switches are constrained to be on or off
@@ -149,7 +149,10 @@ Others:
 
 * Cultural Norms, Conventions, Standards
   * Greetings, Flashing headlights, etc.
-* Transfer Effects
+  * On Light Switches in the US are up, while in the UK they are down
+  * These can be addressed in internatonal standards
+* Transfer Effects: **Prior experience influencing how we expect to use/interact with an object**
   * MS Word Ribbons when converting to a new system
 * Visibility
   * Elevator only showing possible actions
+  * Suffers when there are too many interactions and not enough controls
