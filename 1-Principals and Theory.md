@@ -232,11 +232,11 @@ Shortening a Microsoft Word Document
 Change Course Schedule in Microsoft Excel
 
 1. Goal: Change class dates on old schedule so that they match new dates
-2. Plan: Change date of first class from 1/11 to 1/12 
-3. Specify: Position cursor in cell of first date, type in 1/12 
+2. Plan: Change date of first class from 1/11 to 1/12
+3. Specify: Position cursor in cell of first date, type in 1/12
 4. Execute: Perform the steps
 5. Perceive: All dates are changing instantly
-6. Interpret: All dates are one more than previously shown 
+6. Interpret: All dates are one more than previously shown
 7. Compare: Goal met!
 
 Replacing all instances of quick with swift in Microsoft Word
