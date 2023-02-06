@@ -29,6 +29,10 @@
   * [Lecture #05](#lecture-05)
     * [Cognitive Walkthrough Document](#cognitive-walkthrough-document)
     * [How to Do a Cognitive Walkthrough](#how-to-do-a-cognitive-walkthrough)
+  * [Lecture #06](#lecture-06)
+    * [Perception Guidelines](#perception-guidelines)
+      * [Shneiderman's guidelines](#shneidermans-guidelines)
+      * [Nielsen's UI guidelines](#nielsens-ui-guidelines)
 
 ## Links to notes on specific Design Principals
 
@@ -300,3 +304,38 @@ An individual or group simulates a user completing asks with a user interaface
 4. Brainstorm potential solutions to problems identified
 
 [Example](Lectures/L05-Cognitive-Walkthrough.pdf) @ page 7 (Only for local repos that include the Lectures folder)
+
+## Lecture #06
+
+### Perception Guidelines
+
+Guidelines are based on human psychology
+
+* UI Guidelines are based on how *people* perceive, think, learn, act
+* UI guidelines are *not* rote recipes
+* Applying them effectively requires understanding their scientific basis
+  * Determining rule applicability & precedence
+  * Balancing trade-offs between competing rules
+
+#### Shneiderman's guidelines
+
+1. Strive for consistency
+2. Cater to universal usability
+3. Offer informative feedback
+4. Design task-flows to yield closure
+5. Prevent errors
+6. Permit easy reversal of actions
+7. Make users feel they are in control
+8. Minimize short-term memory load
+
+#### Nielsen's UI guidelines
+
+1. Visibility of system status
+2. Match between system & real world
+3. User control & freedom
+4. Consistency & standardsError prevention
+5. Recognition rather than recall
+6. Flexibility & efficiency of use
+7. Aesthetic & minimalist design
+8. Help users recognize, diagnose, & recover from errors
+9. Provide online documentation & help
