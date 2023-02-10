@@ -33,6 +33,11 @@
     * [Perception Guidelines](#perception-guidelines)
       * [Shneiderman's guidelines](#shneidermans-guidelines)
       * [Nielsen's UI guidelines](#nielsens-ui-guidelines)
+  * [Lecture #07](#lecture-07)
+    * [Perception Guidelines (Cont.)](#perception-guidelines-cont)
+    * [Implication for Design](#implication-for-design)
+  * [Lecture #07 (Cont.)](#lecture-07-cont)
+    * [Human Perception \& Color Vision](#human-perception--color-vision)
 
 ## Links to notes on specific Design Principals
 
@@ -339,3 +344,77 @@ Guidelines are based on human psychology
 7. Aesthetic & minimalist design
 8. Help users recognize, diagnose, & recover from errors
 9. Provide online documentation & help
+
+## Lecture #07
+
+### Perception Guidelines (Cont.)
+
+* Expectation-induced blindness
+  * being "blind" to slightchanges: "next" and "back" being switched at a random page
+* Habituation
+  * similar to the previous
+  * Something we see so often we ingore it: terms-of-service
+* Inattentional blindness
+  * the gorilla going into the middle of the basketball passing scene
+  
+### Implication for Design
+
+1. Avoid Ambiguity
+   1. ensure users interpret information displays uniformly
+   2. if ambiguity is unavoidable
+      1. use standards or conventions
+      2. "prime" users to resolve ambiguity
+2. Be consistant
+   1. users will have expectations based on context
+   2. they will expect controls and information to be in consistent locations
+   3. they will also expect them to have the same function and appearance across different screens
+3. Understand users' goals
+   1. users' goals strongly influence what they perceive
+   2. ensure that exactly the information and functionality needed are readily available at every step of interaction
+   3. realize that users may not notice or discover items unrelated to their goals
+
+## Lecture #07 (Cont.)
+
+### Human Perception & Color Vision
+
+How does the brain co,bine cones to allow us to see color?
+
+By Subtraction!
+
+* Red-green difference signal channel compoutes differences in signals from medium-low-frequency cones
+* Yellow-bluedifference signal channel subtracts signals from high and low-frequency cones
+* Luminance (black-white) signal channel adds signals from low-and medium-frequency cones
+* Nearby signals from these channels are subtracted to produce color vision<https://en.wikipedia.org/wiki/Color_vision>
+
+Ability depends on their presentation
+
+* Paleness-The paler the colors are, the  harder it is to tell them apart 
+* Color patch size-The smaller the color patches, the harder it is for us to distinguish between them
+* Separation-The more separated the patches are, the harder it is for us to distinguish between them
+
+Color-blindness is a limiting factor
+
+* People who are color blind *can* see colors!
+* They just have trouble distinguishing certain pairs of color
+  * one or more color subtraction channels are not working normally
+* 8% or men, 0.5% of women have this issue
+
+Red-green color blindness is most common
+
+* Colors that would be hard for red-green colorblind people to distinguish:
+  * Dark red from black
+  * Blue from purple
+  * Light green from white
+* To test a design, put it through a color-blindness filter
+
+We do not have complete control over color
+
+* Colors may appear different on different displays, which vary by make, model, driver, and settings
+* Many colors look the same on gray scale displays
+* viewing angle can influence colors
+* colors may be washed out by ambient light
+
+Peripheral vision
+
+* Spatial resolution of human vision is best within *foveal field*
+* 
