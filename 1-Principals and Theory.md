@@ -38,6 +38,14 @@
     * [Implication for Design](#implication-for-design)
   * [Lecture #07 (Cont.)](#lecture-07-cont)
     * [Human Perception \& Color Vision](#human-perception--color-vision)
+      * [Color-blindness](#color-blindness)
+      * [Using color](#using-color)
+  * [Lecture #08](#lecture-08)
+    * [Memory](#memory)
+    * [Short Term / Working Memory](#short-term--working-memory)
+      * [How to work with Working Memory](#how-to-work-with-working-memory)
+    * [Long Term Memory](#long-term-memory)
+      * [How to work with Long Term Memory](#how-to-work-with-long-term-memory)
 
 ## Links to notes on specific Design Principals
 
@@ -384,13 +392,15 @@ By Subtraction!
 * Red-green difference signal channel compoutes differences in signals from medium-low-frequency cones
 * Yellow-bluedifference signal channel subtracts signals from high and low-frequency cones
 * Luminance (black-white) signal channel adds signals from low-and medium-frequency cones
-* Nearby signals from these channels are subtracted to produce color vision<https://en.wikipedia.org/wiki/Color_vision>
+* Nearby signals from these channels are subtracted to produce color vision <https://en.wikipedia.org/wiki/Color_vision>
 
 Ability depends on their presentation
 
-* Paleness-The paler the colors are, the  harder it is to tell them apart 
+* Paleness-The paler the colors are, the  harder it is to tell them apart
 * Color patch size-The smaller the color patches, the harder it is for us to distinguish between them
 * Separation-The more separated the patches are, the harder it is for us to distinguish between them
+
+#### Color-blindness
 
 Color-blindness is a limiting factor
 
@@ -407,6 +417,8 @@ Red-green color blindness is most common
   * Light green from white
 * To test a design, put it through a color-blindness filter
 
+#### Using color
+
 We do not have complete control over color
 
 * Colors may appear different on different displays, which vary by make, model, driver, and settings
@@ -417,4 +429,60 @@ We do not have complete control over color
 Peripheral vision
 
 * Spatial resolution of human vision is best within *foveal field*
-* 
+
+## Lecture #08
+
+### Memory
+
+* How does human memory work, and what are implications for design?
+  * Short-term or "working" memory: (fractions of) seconds to minutes
+  * Long-term memory: hours, days, years
+
+### Short Term / Working Memory
+
+* Short term / **Working Memory** represents what we are attending to NOW
+  * Not a separate store; it's foci of attention is Long Term Memory
+  * Capacity:: 3-5 unrelated items
+    * goals, numbers, words, object (actually features)
+  * New items can "grab" attention from old
+  * Easy to forget immediate goals or info
+
+#### How to work with Working Memory
+
+* It is easier to remember things if there are context that you can pick up on
+  * or something familiar that you are trying ot remember
+* If you are given a task that demands attention, it can push things out of the working memory, making it difficult to recall what we were trying to remember
+  * "remember this set of numbers in an order, now say your phone number backwards. what was the set of numbers?"
+* Don't do this:  
+    ![Bad instructions](Images/Bad%20Instructions.png)
+  * Don't make the user remember instructions while doing it
+* When a user is working on a path, don't distact them
+  * good example: installation/setup wizards
+
+### Long Term Memory
+
+* Paterns of neural activity
+* Experiences trigger patterns corresponding to features
+  * Similar experience trigers same pattern (recognition)
+  * Internal neural activity triggers pattern (recall)
+  * The more frequently a pattern is triggered, the easier it is to recognize and recall
+* Long term memory is fault
+  * Error-prone, impressionist, free-associative, easily biased
+  * Memories change when features are dropped or added
+  * Seldom-followed routines are hard to recall
+* "Memory Palace"
+
+#### How to work with Long Term Memory
+
+* Don't burden long-term memory
+* Consistency
+  * If menu items are always in the same place, it will be easier to remember where they are
+  * If menu items are always in the same order, it will be easier to remember where they are
+  * If items are always in the same place on ribbons, it will be easier to remember where they are  
+        ![Office Ribbon Memory](Images/Office%20Ribbon%20Memory.png)
+    * Same order and basic area for the shared items
+* When focused on tasks, we don't notice other things
+  * Keeping track of extra features in short term memory is *work*
+  * We notice and remember only those features crucial to task
+    * We don't notice object/events that we would have otherwise noticed (Inattentional blindness)
+    * We are "blind" to changes (change blindness)
