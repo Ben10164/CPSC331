@@ -544,11 +544,11 @@ We follow the information scent
 sequence
 * Provide users with assistance in recalling security credentials
 * Be consistent in placement of UI elements across pages/apps
-* Remind users of "loose ends" at end of task 
+* Remind users of "loose ends" at end of task
 * Anticipate users' goals, and match options to goals
 * Make commonly-used functionality easy to access
 * Show available options rather than requiring them to be remembered
 * Represent options with both pictures and text to enhance recognizability
-* Make changes to objects/states in UI obvious 
+* Make changes to objects/states in UI obvious
 * Make range of choices readily distinguishable
 * Provide/support external memory aids of •Use thumbnail images to index previously- progress viewed images
