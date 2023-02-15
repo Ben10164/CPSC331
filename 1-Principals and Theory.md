@@ -1,51 +1,53 @@
-# Principals and Theory
+# Principals and Theory <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
 
-* [Principals and Theory](#principals-and-theory)
-  * [Links to notes on specific Design Principals](#links-to-notes-on-specific-design-principals)
-  * [Lecture #01](#lecture-01)
-    * [Why is software hard to design?](#why-is-software-hard-to-design)
+* [Links to notes on specific Design Principals](#links-to-notes-on-specific-design-principals)
+* [Lecture #01](#lecture-01)
+  * [Why is software hard to design?](#why-is-software-hard-to-design)
     * [Why is this bad?](#why-is-this-bad)
-    * [How can we create better designed products](#how-can-we-create-better-designed-products)
-    * [The key goals of Human Computer Interactions](#the-key-goals-of-human-computer-interactions)
-    * [User-Centered Design Process](#user-centered-design-process)
-    * [User Experience Requirements](#user-experience-requirements)
-  * [Lecture #02](#lecture-02)
-    * [Affordance](#affordance)
-    * [Signifier](#signifier)
-    * [Mapping](#mapping)
-    * [Examples of previous three](#examples-of-previous-three)
-    * [Feedback](#feedback)
-  * [Lecture #03](#lecture-03)
-    * [Conceptual Model](#conceptual-model)
-    * [Constraints](#constraints)
-  * [Lecture  #04](#lecture--04)
-    * [Seven Stages of Action](#seven-stages-of-action)
-      * [Gulf of Execution](#gulf-of-execution)
-      * [Gulf of Evaluation](#gulf-of-evaluation)
-      * [Examples](#examples)
-    * [Emotional States](#emotional-states)
-  * [Lecture #05](#lecture-05)
-    * [Cognitive Walkthrough Document](#cognitive-walkthrough-document)
-    * [How to Do a Cognitive Walkthrough](#how-to-do-a-cognitive-walkthrough)
-  * [Lecture #06](#lecture-06)
-    * [Perception Guidelines](#perception-guidelines)
-      * [Shneiderman's guidelines](#shneidermans-guidelines)
-      * [Nielsen's UI guidelines](#nielsens-ui-guidelines)
-  * [Lecture #07](#lecture-07)
-    * [Perception Guidelines (Cont.)](#perception-guidelines-cont)
-    * [Implication for Design](#implication-for-design)
-  * [Lecture #07 (Cont.)](#lecture-07-cont)
-    * [Human Perception \& Color Vision](#human-perception--color-vision)
-      * [Color-blindness](#color-blindness)
-      * [Using color](#using-color)
-  * [Lecture #08](#lecture-08)
-    * [Memory](#memory)
-    * [Short Term / Working Memory](#short-term--working-memory)
-      * [How to work with Working Memory](#how-to-work-with-working-memory)
-    * [Long Term Memory](#long-term-memory)
-      * [How to work with Long Term Memory](#how-to-work-with-long-term-memory)
+  * [How can we create better designed products](#how-can-we-create-better-designed-products)
+  * [The key goals of Human Computer Interactions](#the-key-goals-of-human-computer-interactions)
+  * [User-Centered Design Process](#user-centered-design-process)
+  * [User Experience Requirements](#user-experience-requirements)
+* [Lecture #02](#lecture-02)
+  * [Affordance](#affordance)
+  * [Signifier](#signifier)
+  * [Mapping](#mapping)
+  * [Examples of previous three](#examples-of-previous-three)
+  * [Feedback](#feedback)
+* [Lecture #03](#lecture-03)
+  * [Conceptual Model](#conceptual-model)
+  * [Constraints](#constraints)
+* [Lecture  #04](#lecture--04)
+  * [Seven Stages of Action](#seven-stages-of-action)
+    * [Gulf of Execution](#gulf-of-execution)
+    * [Gulf of Evaluation](#gulf-of-evaluation)
+    * [Examples](#examples)
+  * [Emotional States](#emotional-states)
+* [Lecture #05](#lecture-05)
+  * [Cognitive Walkthrough Document](#cognitive-walkthrough-document)
+  * [How to Do a Cognitive Walkthrough](#how-to-do-a-cognitive-walkthrough)
+* [Lecture #06](#lecture-06)
+  * [Perception Guidelines](#perception-guidelines)
+    * [Shneiderman's guidelines](#shneidermans-guidelines)
+    * [Nielsen's UI guidelines](#nielsens-ui-guidelines)
+  * [Implication for Design](#implication-for-design)
+* [Lecture #07](#lecture-07)
+  * [Human Perception \& Color Vision](#human-perception--color-vision)
+    * [Color-blindness](#color-blindness)
+    * [Using color](#using-color)
+* [Lecture #08](#lecture-08)
+  * [Memory](#memory)
+  * [Short Term / Working Memory](#short-term--working-memory)
+    * [How to work with Working Memory](#how-to-work-with-working-memory)
+  * [Long Term Memory](#long-term-memory)
+    * [How to work with Long Term Memory](#how-to-work-with-long-term-memory)
+  * [Change Blindness](#change-blindness)
+  * [Memory Aids](#memory-aids)
+  * [Familiar path](#familiar-path)
+  * [80-20 Rule](#80-20-rule)
+  * [Designing with Human Memory in mind](#designing-with-human-memory-in-mind)
 
 ## Links to notes on specific Design Principals
 
@@ -69,7 +71,7 @@
   * impossible to anticipate all possible conditions of use
 * "Time is money"
 
-### Why is this bad?
+#### Why is this bad?
 
 * Decreased sales
 * dissatisfied customers/negative perceptions
@@ -329,6 +331,13 @@ Guidelines are based on human psychology
 * Applying them effectively requires understanding their scientific basis
   * Determining rule applicability & precedence
   * Balancing trade-offs between competing rules
+* Expectation-induced blindness
+  * being "blind" to slightchanges: "next" and "back" being switched at a random page
+* Habituation
+  * similar to the previous
+  * Something we see so often we ingore it: terms-of-service
+* Inattentional blindness
+  * the gorilla going into the middle of the basketball passing scene
 
 #### Shneiderman's guidelines
 
@@ -352,18 +361,6 @@ Guidelines are based on human psychology
 7. Aesthetic & minimalist design
 8. Help users recognize, diagnose, & recover from errors
 9. Provide online documentation & help
-
-## Lecture #07
-
-### Perception Guidelines (Cont.)
-
-* Expectation-induced blindness
-  * being "blind" to slightchanges: "next" and "back" being switched at a random page
-* Habituation
-  * similar to the previous
-  * Something we see so often we ingore it: terms-of-service
-* Inattentional blindness
-  * the gorilla going into the middle of the basketball passing scene
   
 ### Implication for Design
 
@@ -381,7 +378,7 @@ Guidelines are based on human psychology
    2. ensure that exactly the information and functionality needed are readily available at every step of interaction
    3. realize that users may not notice or discover items unrelated to their goals
 
-## Lecture #07 (Cont.)
+## Lecture #07
 
 ### Human Perception & Color Vision
 
@@ -486,3 +483,72 @@ Peripheral vision
   * We notice and remember only those features crucial to task
     * We don't notice object/events that we would have otherwise noticed (Inattentional blindness)
     * We are "blind" to changes (change blindness)
+
+### Change Blindness
+
+How to work with it
+
+* Make changes obvious!
+  * Use animations (e.g., vibration) to draw attention to an object (e.g., an error message)
+  * Use animation to highlight that one object has changed into another object
+
+### Memory Aids
+
+We use external memory aids to help us keep track of things
+
+* Counting objects, laps, or other things (What one am I on?)
+* Reading books (Where did I leave off?)
+* Checklists
+
+We quickly forget when we reach a goal
+
+* When we reach goal, we often let everything related to it fall out of STM (short-term memory)
+* We often forget "loose ends" of tasks:
+  * Removing last page of document from copier
+  * Turning car headlights OFF
+  * Switching device or software back to normal mode
+
+Allow user to keep track of progress
+
+* Remind users of loose ends
+* Automatically tie up loose ends
+* Revert to "norma;" modes automatically
+
+We follow the information scent
+
+* Intent focus on goal leads to *literal* interpretation of interface items
+
+### Familiar path
+
+"I'm in a hurry; I'll do it the long way"
+
+* Familiar path is preferred to new path, even if new path is more efficient
+  * More comfortable
+  * Less thought (we're mentally lazy)
+* Implications
+  * Make seldom-used systems (e.g., ATMs) easy to use at the expense of efficiency
+  * Guide users toward goals (wizards can help)
+  * Provide expert paths for those willing to learn
+
+### 80-20 Rule
+
+* 20% if functionality accessed 80% of the time
+* Make the most frequently-accessed functionality readily visible, so people don't have to recall it
+* Less frequently-used functionality can be "buried"
+
+### Designing with Human Memory in mind
+
+* Place instructions in context in which they're needed
+* Make modes visible
+* Focus user on single subtask in multi-step
+sequence
+* Provide users with assistance in recalling security credentials
+* Be consistent in placement of UI elements across pages/apps
+* Remind users of "loose ends" at end of task 
+* Anticipate users' goals, and match options to goals
+* Make commonly-used functionality easy to access
+* Show available options rather than requiring them to be remembered
+* Represent options with both pictures and text to enhance recognizability
+* Make changes to objects/states in UI obvious 
+* Make range of choices readily distinguishable
+* Provide/support external memory aids of •Use thumbnail images to index previously- progress viewed images
