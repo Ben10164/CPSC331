@@ -48,6 +48,9 @@
   * [Familiar path](#familiar-path)
   * [80-20 Rule](#80-20-rule)
   * [Designing with Human Memory in mind](#designing-with-human-memory-in-mind)
+* [Lecture #09](#lecture-09)
+  * [Three Brains](#three-brains)
+  * [Two Systems](#two-systems)
 
 ## Links to notes on specific Design Principals
 
@@ -552,3 +555,31 @@ sequence
 * Make changes to objects/states in UI obvious
 * Make range of choices readily distinguishable
 * Provide/support external memory aids of •Use thumbnail images to index previously- progress viewed images
+
+## Lecture #09
+
+### Three Brains
+
+1. New Brain: Thinking Brain (Thinking, Planning, Deciding)
+2. Mid Brain: Mammalian Brain (Emotions, connections, Rewards)
+3. Old Brain: Reptilian Brain (Survival Instincts)
+
+### Two Systems
+
+System 1: Old brain + mid brain
+
+* First reactions
+* Fast, automatic, impulsive associative, emotional, and unconscious processing = limbic
+* Substitutes easier problem for problem it can’t solve
+* Bases judgments only on what it perceives; if conflicting data not present, it doesn’t exist
+* Filters perceptions based on goals and beliefs provided by System 2
+
+System 2: New brain
+
+* Thinking
+* slower, conscious reflective, deliberative, analytical, rational, logical processing = neocortex
+* Often lazy; accepts System 1 estimates even though they are often inaccurate
+* Effort and will required to operate it
+* Needed to get things exactly right
+
+We want to prioritize system 1: "Don't make me think"
